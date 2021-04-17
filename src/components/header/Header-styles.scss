@@ -1,0 +1,26 @@
+.budgetHeader {
+  margin: auto;
+  text-align: center;
+  background-image: linear-gradient(
+      to right,
+      rgba(24, 2, 2, 0.582),
+      rgba(0, 0, 0, 0.534)
+    ),
+    url("../../img/plane.jpg");
+  background-position: top;
+  background-size: cover;
+  height: 40vh;
+  padding: 80px;
+  overflow: hidden;
+  color: white;
+  font-weight: lighter;
+
+  & .budgetBalance {
+    font-weight: lighter;
+    font-size: 60px;
+  }
+  & .incExp {
+    font-weight: lighter;
+    font-size: 30px;
+  }
+}

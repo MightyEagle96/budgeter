@@ -1,38 +1,70 @@
-.App {
+body {
+  color: rgb(75, 69, 69);
+}
+.spaceOut {
+  margin: 10px;
+}
+.moveRight {
+  text-align: right;
+}
+.transactionPanel {
+  text-align: center;
+  margin: 30px;
+}
+.form-inline {
+  display: block;
+}
+.myButton {
+  background-color: rgb(255, 72, 0);
+  border: none;
+  height: 40px;
+  color: white;
+  border-radius: 5px;
+}
+.displayTransaction {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.incomeTransact {
+  background-color: rgba(35, 214, 11, 0.65);
+  padding: 5px 10px 5px 30px;
+  border-radius: 10px;
+  width: 30rem;
+  margin-bottom: 10px;
+  color: white;
+  float: right;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.expenseTransact {
+  background-color: rgba(251, 69, 69, 0.822);
+  padding: 5px 10px 5px 30px;
+  border-radius: 10px;
+  width: 30rem;
+  margin-bottom: 10px;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.transactionItem {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: left;
+  margin: 0;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.transactionDetail {
+  font-size: 16px;
+  font-weight: lighter;
+}
+.transaction {
+  margin: 10px;
+  justify-items: center;
+}
+.incomePercentage {
+  background-color: rgba(16, 97, 5, 0.493);
+  padding: 8px;
+  border-radius: 10px;
+  width: fit-content;
+}
+.expensePercentage {
+  background-color: rgba(151, 39, 39, 0.822);
+  padding: 8px;
+  border-radius: 10px;
+  width: fit-content;
 }
